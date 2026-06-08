@@ -44,7 +44,7 @@ jobs:
     - name: Checkout kernel source
       uses: actions/checkout@v5
       with:
-        repository: Lu5ck/android_kernel_xiaomi_sm8635
+        repository: SSNN123/android_kernel_xiaomi_sm8635
         path: source
         ref: lineage-23.2-ksun_susfs
 
