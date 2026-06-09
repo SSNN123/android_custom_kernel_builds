@@ -46,6 +46,7 @@ jobs:
       with:
         repository: SSNN123/android_kernel_xiaomi_sm8635
         path: source
+        submodules: true
         ref: lineage-23.2-ksun_susfs
 
     - name: Build Kernel in Docker (ArchLinux)
